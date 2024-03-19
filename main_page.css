@@ -1,0 +1,81 @@
+body {
+  background-color: #181A1A;
+  font-family: Arial, sans-serif; }
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em; }
+  .header .logo-container {
+    font-size: 2em;
+    color: #F0D046; }
+  .header .search-container input {
+    width: 500px;
+    height: 30px;
+    padding: 0.5em;
+    margin: 1em 0;
+    border: none;
+    border-radius: 4px; }
+  .header .class-selector button {
+    background-color: #F0D046;
+    height: 40px;
+    color: #313333;
+    font-weight: 600;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border-radius: 4px;
+    cursor: pointer; }
+    .header .class-selector button:hover {
+      background-color: #ecc417; }
+
+main {
+  color: #FFF; }
+  main .category {
+    margin: 1em; }
+    main .category h2 {
+      border-bottom: 1px solid #F0D046; }
+
+.book-section {
+  background-color: #181A1A;
+  padding: 60px;
+  color: white; }
+  .book-section .book-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; }
+    .book-section .book-section-header h2 {
+      font-size: 24px;
+      color: #fff; }
+    .book-section .book-section-header .show-all-btn {
+      padding: 10px 20px;
+      background-color: #ffd700;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold; }
+  .book-section .book-container {
+    display: flex;
+    overflow-x: auto; }
+    .book-section .book-container .book {
+      width: 160px;
+      margin-right: 20px;
+      flex-shrink: 0; }
+      .book-section .book-container .book img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px; }
+      .book-section .book-container .book .book-title {
+        font-size: 14px;
+        margin: 10px 0 5px; }
+      .book-section .book-container .book .book-author {
+        font-size: 12px;
+        color: #ccc; }
+      .book-section .book-container .book .book-stats {
+        font-size: 12px; }
+        .book-section .book-container .book .book-stats .book-views, .book-section .book-container .book .book-stats .book-likes {
+          display: inline-block;
+          margin-right: 10px; }

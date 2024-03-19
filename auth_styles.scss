@@ -1,14 +1,17 @@
-$background-color: #000;
+$background-color: #181A1A;
 $text-color: #fff;
 $button-text-color: rgb(49, 51, 51);
-$button-background: #FFC107; // Adjust the color based on the image
+$button-background: #F0D046; // Adjust the color based on the image
+
+body {
+    background-color: $background-color;
+}
 
 .login-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: $background-color;
     color: $text-color;
     font-family: Arial, sans-serif;
 
